@@ -1,5 +1,5 @@
 module Spree
-  class LocaleController < Spree::StoreController
+  class LocaleController < Sprangular::BaseController
     def set
       session[:locale] = params[:locale]
 
