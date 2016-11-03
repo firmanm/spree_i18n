@@ -209,6 +209,8 @@ pt-BR:
         one: Cartão de Crédito
         other: Cartões de Crédito
       spree/customer_return:
+        one: Devolução do Cliente
+        other: Devoluções do Cliente
       spree/inventory_unit:
         one: Unidade de Inventário
         other: Unidades de Inventário
@@ -485,6 +487,7 @@ pt-BR:
     calculator: Calculadora
     calculator_settings_warning: Se você alterar o tipo de calculadora, deve-se primeiro confirmar a alteração antes de editar as configurações.
     cancel: Cancelar
+    canceled: Cancelado
     canceled_at: Cancelado em
     canceler: Cancelado por
     cannot_create_customer_returns: Não foi possível criar devolução do cliente
@@ -570,7 +573,7 @@ pt-BR:
     currency_symbol_position: Colocar o símbolo da moeda antes ou depois da quantia?
     currency_thousands_separator: Separador de milhares da moeda
     current: Atual
-    current_promotion_usage: Uso da promoção atual
+    current_promotion_usage: "Uso da promoção atual: %{count}"
     customer: Cliente
     customer_details: Detalhes do Cliente
     customer_details_updated: Os Detalhes do Cliente Foram Atualizados
