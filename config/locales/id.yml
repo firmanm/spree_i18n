@@ -76,10 +76,10 @@ id:
         name: Nama
       spree/product:
         available_on: Tersedia Pada
-        cost_currency: Kurs Biaya
-        cost_price: Harga Pengeluaran
+        cost_currency: Currency
+        cost_price: Harga Pokok
         description: Deskripsi
-        master_price: Harga Master
+        master_price: Harga Jual
         name: Nama
         on_hand: Yang Tersedia
         shipping_category: Kategori Pengiriman
@@ -119,7 +119,7 @@ id:
       spree/store:
         mail_from_address:
         meta_description:
-        meta_keywords: 
+        meta_keywords:
         name: Nama
         seo_title: Judul SEO
         url:
@@ -141,8 +141,8 @@ id:
         password: Kata Sandi
         password_confirmation: Konfirmasi Kata Sandi
       spree/variant:
-        cost_currency: Kurs Biaya
-        cost_price: Harga Pengeluaran
+        cost_currency: Currency
+        cost_price: Harga Pokok
         depth: Kedalaman
         height: Ketinggian
         price: Harga
@@ -499,7 +499,7 @@ id:
     confirm_password: Konfirmasi Kata Sandi
     continue: Lanjut
     continue_shopping: Lanjutkan belanja
-    cost_currency: Biaya Mata Uang
+    cost_currency: Currency
     cost_price: Harga Pokok
     could_not_connect_to_jirafe: Tidak dapat terhubung ke Jirafe untuk sinkronisasi data. Akan dicoba kembali secara otomatis.
     could_not_create_customer_return:
@@ -747,7 +747,7 @@ id:
     manage_promotion_categories:
     manage_variants:
     manual_intervention_required:
-    master_price: Harga Master
+    master_price: Harga Jual
     match_choices:
       all: Semua
       none: Tidak ada
